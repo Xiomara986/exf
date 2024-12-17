@@ -1,0 +1,299 @@
+/*Navbar*/
+.navbar {
+  padding: 10px;
+  background-color: #38bead;
+  font-weight: 500;
+  position: sticky;
+  top:0;
+  left:0;
+  z-index: 100;
+  font-family: "Montserrat", serif;
+  font-size: 18px;  
+}
+  
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.nav-link:hover{
+  color:white;
+  font-weight: 500;
+  transition: all 0.3s ease-in;
+}
+  
+/*Pincipal*/
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", serif;
+}
+
+.hero-imagen-desarrollador {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Rozha One", serif;
+  color: #05576b;
+}
+
+.hero-principal {
+  padding: 40px;
+}
+
+.hero {
+  background-color: #eff7ff;
+  min-height: 450px;
+  text-align: center;
+}
+
+.hero-principal h2 {
+  font-size: 20px;
+  color: #615151;
+  font-family: "Montserrat", serif;
+}
+
+/*Conoce*/
+.sobre-mi {
+  height: 350px;
+  padding: 2px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 800px;
+  text-align: center;
+}
+
+.seccion-turquesa {
+  color: white;
+  background-color: #05576b;
+  font-family: "Montserrat", serif;
+}
+.seccion-titulo {
+  font-size: 50px;
+  padding: 15px 0;
+  font-family: "Rozha One", serif;
+}
+.seccion-texto {
+  font-size: 20px;
+}
+  
+/*tarjetas*/
+.seccion-clara {
+  color: black;
+  
+}
+
+.tarjetas {
+  padding: 40px 40px 60px 40px;
+}
+
+.tarjetas .columna {
+  padding: 20px;
+  border: 1px solid #b6b5b54d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.4s ease-in;
+}
+
+.tarjetas .columna:hover {
+  color: white;
+  background-color: #38bead;
+}
+
+.tarjetas i {
+  font-size: 2.5rem;
+  color: #eff7ff;
+  background-color: #05576b;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.tarjetas-titulo {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 5px;
+  background-color: #05576b;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* Proyectos */
+.seccion-descripcion {
+  font-size: 20px;
+  color: #584e4e;
+  font-family: "Montserrat", serif;
+}
+
+section{
+  z-index: -100;
+}
+
+.proyectos-diseño img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+  
+.proyectos-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.proyecto:hover img {
+  opacity: 0.5;
+}
+
+.btn {
+  font-size: 17px;
+  margin: 20px;
+  background-color: #38bead;
+}
+.btn:hover{
+  color: #05576b;
+}
+ 
+/* Páginas*/
+  
+.paginas {
+  min-height: 500px;
+  padding: 30px;
+}
+
+.paginas .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.paginas .card-header {
+  font-weight: bold;
+}
+  
+/* Testimonios */
+.carrusel{
+  padding-top: 50px;
+}
+
+
+/* Contacto */
+
+.card h5{
+  font-family: "Rozha One", serif;
+  font-size: 50px;
+}
+.card{
+  background-color: #eff7ff;
+  border: #eff7ff;
+  font-size: 20px;
+}
+body{
+  background-color: #eff7ff;
+}
+
+
+/* Pie de pagina */
+
+footer {
+  min-height: 500px;
+  font-family: "Montserrat", serif;
+}
+
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-family: "Montserrat", serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  border: 2px solid #eff7ff;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: #eff7ff;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: #eff7ff;
+  border: 2px solid #05576b;
+}
+
+.iconos-redes-sociales a:hover i {
+  color: #05576b;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #eff7ff;
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 50px;
+    width: 50px;
+  }
+
+  .testimonio{
+    font-size: 10px;
+  }
+  .card {
+    font-size: 16px;
+  }
+  .seccion-texto{
+    font-size: 15px;
+  }
+  .seccion-titulo{
+    font-size: 35px;
+  }
+  .seccion-descripcion{
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+}
